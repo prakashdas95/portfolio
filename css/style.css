@@ -265,7 +265,7 @@ body {
     font-size: 1.6rem; }
   .about__divider {
     border: none;
-    box-shadow: inset 1.5px 1.5px 1.5px #202125, inset -1.5px -1.5px 1.5px #353535;
+    box-shadow: inset 1.5px 1.5px 1.5px #202125, inset -1.5px -1.5px 1.5px #353535;
     width: 6rem;
     height: 1rem;
     border-radius: 1.6rem;
@@ -345,7 +345,7 @@ body {
     justify-content: space-evenly; }
   .portfolio__divider {
     border: none;
-    box-shadow: inset 1.5px 1.5px 1.5px #202125, inset -1.5px -1.5px 1.5px #353535;
+    box-shadow: inset 1.5px 1.5px 1.5px #202125, inset -1.5px -1.5px 1.5px #353535;
     width: 4rem;
     height: 1rem;
     border-radius: 1.6rem;
@@ -389,3 +389,26 @@ body {
   color: #f56c6d;
   border-radius: 32px;
   box-shadow: inset 3px 3px 3px #202125, inset -3px -3px 3px #3e3e3e; }
+
+.contact {
+  text-align: left;
+  height: auto; }
+  .contact__heading {
+    font-weight: 600;
+    font-size: 1.6rem; }
+  .contact__divider {
+    border: none;
+    box-shadow: inset 1.5px 1.5px 1.5px #202125, inset -1.5px -1.5px 1.5px #353535;
+    width: 6rem;
+    height: 1rem;
+    border-radius: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center; }
+  .contact__divider::after {
+    content: "";
+    height: 0.6rem;
+    background-color: #f56c6d;
+    width: 2.5rem;
+    border-radius: 3rem; }

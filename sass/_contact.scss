@@ -1,0 +1,31 @@
+.contact {
+    text-align: left;
+    height: auto;
+
+    &__heading {
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+
+    &__divider {
+        border: none;
+        box-shadow: inset 1.5px 1.5px 1.5px #202125,
+            inset -1.5px -1.5px 1.5px #353535;
+        width: 6rem;
+        height: 1rem;
+        border-radius: 1.6rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__divider::after {
+        content: "";
+        height: 0.6rem;
+        background-color: $color-secondary;
+        width: 2.5rem;
+        border-radius: 3rem;
+    }
+}
