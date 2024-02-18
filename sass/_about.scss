@@ -62,14 +62,14 @@
 
   &__skills {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    // grid-template-columns: repeat(3, 1fr);
   }
 
   &__skill {
     margin: 1rem 1rem;
-    width: 100px;
+    // width: 100px;
     padding: 0.5rem 0.5rem;
-    text-align: center;
+    // text-align: center;
     border-radius: 3rem;
     box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
   }

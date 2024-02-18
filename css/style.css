@@ -299,13 +299,10 @@ body {
     font-weight: 600;
     font-size: 1.6rem; }
   .about__skills {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); }
+    display: grid; }
   .about__skill {
     margin: 1rem 1rem;
-    width: 100px;
     padding: 0.5rem 0.5rem;
-    text-align: center;
     border-radius: 3rem;
     box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535; }
   .about__skill__name {
