@@ -17,9 +17,11 @@ body {
   line-height: 1.6; }
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  display: grid;
+  grid-template-columns: 60% 30%;
+  grid-gap: 10%;
+  margin: 0px 180px;
+  grid-template-rows: 95%; }
 
 .home {
   float: left; }
@@ -30,7 +32,6 @@ body {
 
 /*RIGHT SIDE*/
 .right {
-  width: 800px;
   margin-right: 20px;
   padding: 30px;
   border-radius: 32px;
@@ -41,10 +42,9 @@ body {
 .left {
   padding: 30px;
   text-align: center;
-  height: 700px;
-  width: 300px;
   border-radius: 32px;
-  box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535; }
+  box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
+  height: fit-content; }
 
 .personalisation {
   width: 200px;

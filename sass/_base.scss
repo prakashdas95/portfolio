@@ -26,16 +26,13 @@ body {
   font-weight: 300;
   line-height: 1.6;
 }
-.container {
-  // position: absolute;
-  // top: 50%;
-  // left: 50%;
-  // margin-right: -50%;
-  // transform: translate(-50%, -50%);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.container {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  grid-gap: 10%;
+  margin: 0px 180px;
+  grid-template-rows: 95%;
 }
 
 .home {
@@ -46,10 +43,10 @@ body {
 .left {
   float: left;
 }
+
 /*RIGHT SIDE*/
 .right {
   // height: 700px;
-  width: 800px;
   margin-right: 20px;
   padding: 30px;
   border-radius: 32px;
@@ -61,11 +58,9 @@ body {
 .left {
   padding: 30px;
   text-align: center;
-  height: 700px;
-  width: 300px;
   border-radius: 32px;
-
   box-shadow: 3px 3px 3px #202125, -3px -3px 3px #353535;
+  height: fit-content;
 }
 
 .personalisation {
@@ -105,11 +100,13 @@ body {
     -moz-transform: rotate(360deg);
   }
 }
+
 @-webkit-keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
   }
 }
+
 @keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
